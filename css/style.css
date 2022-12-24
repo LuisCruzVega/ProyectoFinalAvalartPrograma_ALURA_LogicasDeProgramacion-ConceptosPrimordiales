@@ -1,0 +1,396 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Rubik Vinyl', cursive;
+}
+a.Backup{
+    text-decoration: none;
+}
+a.Backup:hover{
+    text-decoration: underline;
+}
+section#Contenido{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    background: white;
+}
+div#ContainerIngresaCandidato{
+    border: 1px solid #ccc;
+}
+div.Separacion{
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+}
+div#Buttons{
+    border-bottom: 1px solid #ccc;
+}
+div.ContainerFormularioAll{
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+div.NavegacionAll{
+    display:flex;
+    width: 100%;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #e7e7e7e7;
+}
+div#ContainerIngresaCandidato{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #f5f5f5;
+    height: 67px;
+}
+div.ContainerFormularioAll{
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+input{
+    width: 100%;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+div.IngresoCandidato{
+    margin-right: 20px;
+}
+h6.LabelInput{
+    margin-top: 15px;
+}
+button.Botones{
+    margin-top: 10%;
+    border-radius: 5px;
+    border-color: #337ab7;
+    background-color: #337ab7;
+    padding: 5px;
+}
+div#RecuperarContrasenia{
+    margin-top: 10px;
+}
+div#PieDePagina{
+    width: 101%;
+    background: #efefef;
+    margin-top: 14%;
+    height: 58px;
+    align-items: center;
+    vertical-align: middle;
+}
+/*BOOSTRAP*/
+[class*="col-"]{
+    float:left;
+    /*border: 1px solid black;*/
+    padding: 1px;
+}
+@media(min-width: 1200px){/*Portatiles o pc*/
+    .col-lg-12{
+        width: 100%;
+    }
+    .col-lg-6{
+        width: 50%;
+    }
+    .col-lg-4{
+        width: 33.33333333%;
+    }
+    .col-lg-3{
+        width: 25%;
+    }
+    .col-lg-9{
+        width: 75%;
+    }
+    .col-lg-7{
+        width: 58.33333333%;
+    }
+    .col-lg-5{
+        width: 41.66666666%;
+    }
+    .col-lg-8{
+        width: 66.66666666%;
+    }
+    .col-lg-2{
+        width: 16.66666666%;
+    }
+    .col-lg-1{
+        width: 8.33333333%;
+    }
+    .col-lg-10{
+        width: 83.33333333%;
+    }
+    .col-lg-11{
+        width: 91.66666666%;
+    }
+    .col-lg-0{
+        display: none !important;
+    }
+}
+/*Pantallas pequeñas, mayores a 992 a 1199 (sm) ---> col-sm*/
+@media (max-width: 1199px) and (min-width: 992px){/*IPAD HECHADO*/
+    .col-md-12{
+        width: 100%;
+    }
+    .col-md-6{
+        width: 50%;
+    }
+    .col-md-4{
+        width: 33.33333333%;
+    }
+    .col-md-3{
+        width: 25%;
+    }
+    .col-md-9{
+        width: 75%;
+    }
+    .col-md-7{
+        width: 58.33333333%;
+    }
+    .col-md-5{
+        width: 41.66666666%;
+    }
+    .col-md-8{
+        width: 66.66666666%;
+    }
+    .col-md-2{
+        width: 16.66666666%;
+    }
+    .col-md-1{
+        width: 8.33333333%;
+    }
+    .col-md-10{
+        width: 83.33333333%;
+    }
+    .col-md-11{
+        width: 91.66666666%;
+    }
+    .col-md-0{
+        display: none !important;
+    }
+    div.Separacion{
+        font-size: 10px;
+    }
+    div.ContainerFormularioAll {
+        padding-bottom: -1px;
+    }
+    input {   
+        height: 26px;
+    }
+    button.Botones {
+        position: relative;
+        top: 5px;
+        color: white;
+    }
+    div#RecuperarContrasenia{
+        margin-top: 12px;
+    }
+    div#PieDePagina {
+        margin-top: 33%;
+        height: 61px;
+    }
+}
+/*Pantallas pequeñas, mayores a 768 a 991 (sm) ---> col-sm*/
+@media (max-width: 991px) and (min-width: 761px){/*IPAD NORMAL*/
+    .col-sm-12{
+        width: 100%;
+    }
+    .col-sm-6{
+        width: 50%;
+    }
+    .col-sm-4{
+        width: 33.33333333%;
+    }
+    .col-sm-3{
+        width: 25%;
+    }
+    .col-sm-9{
+        width: 75%;
+    }
+    .col-sm-7{
+        width: 58.33333333%;
+    }
+    .col-sm-5{
+        width: 41.66666666%;
+    }
+    .col-sm-8{
+        width: 66.66666666%;
+    }
+    .col-sm-2{
+        width: 16.66666666%;
+    }
+    .col-sm-1{
+        width: 8.33333333%;
+    }
+    .col-sm-10{
+        width: 83.33333333%;
+    }
+    .col-sm-11{
+        width: 91.66666666%;
+    }
+    .col-sm-0{
+        display: none !important;
+    } 
+    div.ContainerFormularioAll{
+        width: 50%;
+        padding-bottom: 15px;
+    }
+    h6.LabelInput {
+        margin-top: 7px;
+    }
+    div#PieDePagina {
+        position: relative;
+        top: 490px;
+        height: 57px;
+    }
+    div.Separacion{
+        font-size: 15px;
+    }
+    button.Botones {
+        position: relative;
+        top: 5px;
+        color: white;
+    }
+}
+/*Pantallas extra pequeñas, menores a 768 xs--> col-xs*/
+@media (max-width: 767px){/*Cel parado*/
+    .col-xs-12{
+        width: 100%;
+    }
+    .col-xs-6{
+        width: 50%;
+    }
+    .col-xs-4{
+        width: 33.33333333%;
+    }
+    .col-xs-3{
+        width: 25%;
+    }
+    .col-xs-9{
+        width: 75%;
+    }
+    .col-xs-7{
+        width: 58.33333333%;
+    }
+    .col-xs-5{
+        width: 41.66666666%;
+    }
+    .col-xs-8{
+        width: 66.66666666%;
+    }
+    .col-xs-2{
+        width: 16.66666666%;
+    }
+    .col-xs-1{
+        width: 8.33333333%;
+    }
+    .col-xs-10{
+        width: 83.33333333%;
+    }
+    .col-xs-11{
+        width: 91.66666666%;
+    }
+    .col-xs-0{
+        display: none !important;
+    }
+    div#ContainerIngresaCandidato{
+        width: 100%;
+    }
+    div.Image-Candidato{
+        width: 16.66666%;
+    }
+    div#PieDePagina {
+        margin-top: 240px;
+        height: 57px;
+        font-size: 10px;
+    }
+    div.Separacion{
+        font-size: 13px;
+    }
+    button.Botones {
+        position: relative;
+        top: 5px;
+        color: white;
+    }
+    div.InteraccionesCliente{
+        width: 33.33333%;
+    }
+    div.ContainerFormularioAll{
+        width: 91.66666%;
+    }
+    div.container-all{
+        margin:auto;
+    }
+
+}
+@media (min-width:667px) and (max-width:767px){
+    .col-xp-12{/*Cel hechado*/
+        width: 100%;
+    }
+    .col-xp-6{
+        width: 50%;
+    }
+    .col-xp-4{
+        width: 33.33333333%;
+    }
+    .col-xp-3{
+        width: 25%;
+    }
+    .col-xp-9{
+        width: 75%;
+    }
+    .col-xp-7{
+        width: 58.33333333%;
+    }
+    .col-xp-5{
+        width: 41.66666666%;
+    }
+    .col-xp-8{
+        width: 66.66666666%;
+    }
+    .col-xp-2{
+        width: 16.66666666%;
+    }
+    .col-xp-1{
+        width: 8.33333333%;
+    }
+    .col-xp-10{
+        width: 83.33333333%;
+    }
+    .col-xp-11{
+        width: 91.66666666%;
+    }
+    .col-xp-0{
+        display: none !important;
+    }
+    div#ContainerIngresaCandidato{
+        width: 100%;
+    }
+    div.Image-Candidato{
+        width: 16.66666%;
+    }
+    div#PieDePagina {
+        margin-top: 5px;
+        height: 57px;
+    }
+    div.Separacion{
+        font-size: 13px;
+    }
+    button.Botones {
+        position: relative;
+        top: 5px;
+        color: white;
+    }
+    div.InteraccionesCliente{
+        width: 33.33333%;
+    }
+    div.container-all{
+        margin:auto;
+    }
+    div.ContainerFormularioAll{
+        width: 58.33333%;
+    }
+}
